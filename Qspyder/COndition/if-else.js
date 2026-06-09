@@ -9,3 +9,8 @@ function Age (age){
     }
 }
 Age(20)
+
+// Condition ? "True" : "False"
+let age = 18
+let result = age >=18 ? "He is Eligible" : "He is not Eligible"
+console.log(result)
