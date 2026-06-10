@@ -23,3 +23,10 @@ console.log(arr.length) // 3
 let arr4= [10, "Ram", ["Learning", "JavaScript"]]
 console.log(arr4[2][0]) // Learning
 
+// Array Constructor
+let data = new Array(10,20,30)
+console.log(data) // [10,20,30]
+
+console.log(typeof data)
+console.log(data.length)
+console.log(data[1]) // 20
