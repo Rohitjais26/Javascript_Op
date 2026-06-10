@@ -8,3 +8,6 @@ function factorial(n){
     return fact
 }
 console.log(factorial(5))
+
+
+

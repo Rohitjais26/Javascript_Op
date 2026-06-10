@@ -41,3 +41,8 @@ for(i=1;i<=num;i++){
     fact =  fact *i
 }
 console.log(fact)
+
+//Revering the number 
+for (i=10; i>=1;i--){
+    console.log(i)
+}
