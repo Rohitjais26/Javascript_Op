@@ -98,3 +98,36 @@ function grades(marks){
 
 }
 console.log(grades(90))
+
+
+
+
+
+
+/// Question on for loop
+
+//1. Print numbers from 1 to 10
+// for (i=1; i<=10; i++){
+//     console.log(i)
+// }
+
+//2.Print number from 10 t 1
+// for (i=10;i>=1;i--){
+//     console.log(i)
+// }
+
+//3.Print even numbers from 1 to 20
+// for (i=1;i<=20;i++){
+//     if(i%2 ===0){
+//         console.log(i)
+//     }
+
+// }
+
+//4.Print odd numbers from 1 to 20
+// for (i=1;i<=20;i++){
+//     if(i%2 !==0){
+//         console.log(i)
+//     }   
+// }
+
