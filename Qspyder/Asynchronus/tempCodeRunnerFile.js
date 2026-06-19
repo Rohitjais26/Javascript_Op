@@ -1,15 +1,14 @@
-
-// function Login(username,password){
+function FoodOrder(step){
 //     return new Promise((resolve,reject)=>{
-//         if(username === "admin" && password === 1234){
-//             resolve("Login Success")
-
-//         }
-//         else{
-//             reject("Login Failed")
-//         }
-
+//         setTimeout(()=>{
+//             console.log(step)
+//             resolve();
+//         },2000)
 //     })
-
 // }
-// Login("admin",1234).then(result=>console.log(result)).catch(error=>console.log(error))
+// FoodOrder("Order Placed")
+// .then(()=> FoodOrder("Order Confirmed"))
+// .then(()=> FoodOrder("Food is being prepared"))
+// .then(()=> FoodOrder("Food is out for delivery"))
+// .then(()=> FoodOrder("Food Delivered"))
+// .catch(error=>console.log(error))
