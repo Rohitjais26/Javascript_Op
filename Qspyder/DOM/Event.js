@@ -16,11 +16,37 @@
     
 // })
 
-document.getElementById('show').addEventListener('click',()=>{
-    document.getElementById('demo').style.color = "red"
+
+// To Add Event Listener to Multiple Elements
+// document.getElementById('show').addEventListener('click',()=>{
+//     document.getElementById('demo').style.color = "red"
+// })
+
+// document.getElementById('update').addEventListener('click',()=>{
+//     document.getElementById('info').style.color = "green"
+
+// })
+
+
+let course = document.getElementById('course')
+let result = document.getElementById('selectedCourse')
+
+course.addEventListener('change', ()=>{
+    let data = course.value
+    result.textContent = `Selected Course: ${data}`
 })
 
-document.getElementById('update').addEventListener('click',()=>{
-    document.getElementById('info').style.accentColor = "green"
+let circle = document.getElementById('light')
 
+document.getElementById('red').addEventListener('click', ()=>{
+    circle.style.backgroundColor = "red"
+})
+
+document.getElementById('green').addEventListener('click',()=>{
+    circle.style.backgroundColor = "green"
+
+})
+
+document.getElementById('blue').addEventListener('click',()=>{
+    circle.style.backgroundColor = "blue"
 })
